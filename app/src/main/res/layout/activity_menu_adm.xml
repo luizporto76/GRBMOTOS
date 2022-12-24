@@ -8,11 +8,11 @@
     tools:context=".MenuAdm">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textTituloAdmMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:background="@color/textView"
+        android:background="@android:color/transparent"
         android:text="@string/tituloMenuAdm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btnCadAgendaMenuAdm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textTituloAdmMenu" />
 
     <Button
         android:id="@+id/btnAgendaServicoMenuAdm"

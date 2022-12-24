@@ -1,19 +1,30 @@
 <resources>
-        <string name="app_name">GRB MOTOS</string>
-        <string name="cadastro_cadastrar">Cadastrar</string>
-        <string name="btn_login">Login</string>
-        <string name="novoCasdastro">NOVO CADASTRO</string>
-        <string name="hintNome">   Nome</string>
-        <string name="hintTelefone">   Telefone</string>
-        <string name="hintEmail">   Email</string>
-        <string name="hintSenha">Senha</string>
-        <string name="hintConfirmaSenha">Confirme a senha</string>
-        <string name="tituloMenuAdm">MENU ADMINISTRADOR</string>
-        <string name="ServicoAgenda_MenuAdm">VER SERVIÇOS AGENDADOS</string>
-        <string name="CadastroAgenda_MenuAdm">CADASTRAR AGENDA</string>
-        <string name="CadastroServiço_MenuAdm">CADASTRAR SERVIÇO</string>
-        <string name="AgendarServico_MenuAdm">AGENDAR SERVIÇO</string>
-        <string name="tituloEditaAgenda">"Editar agenda "</string>
-        <string name="btnEditaAgendaInclui">INCLUIR AGENDA </string>
-        <string name="btnEditaAgendaExclui">EXCLUIR AGENDA </string>
+    <string name="app_name">GRB MOTOS</string>
+    <string name="cadastro_cadastrar">Cadastrar</string>
+    <string name="btn_login">Login</string>
+    <string name="novoCasdastro">NOVO CADASTRO</string>
+    <string name="hintNome">   Nome</string>
+    <string name="hintTelefone">   Telefone</string>
+    <string name="hintEmail">   Email</string>
+    <string name="btnNovoUsuarioOpcoes">Novo agendamento</string>
+    <string name="btnVersUsuarioOpcoes">Meus agendamentos</string>
+    <string name="hintSenha">Senha</string>
+    <string name="hintConfirmaSenha">Confirme a senha</string>
+    <string name="tituloMenuAdm">MENU ADMINISTRADOR</string>
+    <string name="ServicoAgenda_MenuAdm">VER SERVIÇOS AGENDADOS</string>
+    <string name="CadastroAgenda_MenuAdm">CADASTRAR AGENDA</string>
+    <string name="CadastroServiço_MenuAdm">CADASTRAR SERVIÇO</string>
+    <string name="AgendarServico_MenuAdm">AGENDAR SERVIÇO</string>
+    <string name="tituloEditaAgenda">"EDITAR AGENDA "</string>
+    <string name="btnEditaAgendaInclui">INCLUIR AGENDA </string>
+    <string name="btnEditaAgendaExclui">EXCLUIR AGENDA </string>
+    <string name="textTituloCadastroServico">CADASTRO DE SERVIÇOS</string>
+    <string name="hintTituloCadastroServiço">   Titulo</string>
+    <string name="hintHorasCadastroServiço">"   Horas necessárias"</string>
+    <string name="hintFabricanteCadastroServiço">   Fabricante</string>
+    <string name="hintModeloCadastroServiço">"   Modelo"</string>
+    <string name="btnVoltarCadastroServicos">VOLTAR</string>
+    <string name="btnSalvarCadastroServicos">SALVAR</string>
+    <string name="textTituloUsuarioMenu">Escolha uma opção</string>
+    />
 </resources>

@@ -9,7 +9,7 @@
     <EditText
         android:id="@+id/editTxSenhaCadastro"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="@android:drawable/editbox_background"
@@ -36,7 +36,7 @@
     <EditText
         android:id="@+id/editTxNomeCadastro"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="@android:drawable/editbox_background"
@@ -51,7 +51,7 @@
     <EditText
         android:id="@+id/editTxTelefoneCadastro"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="@android:drawable/editbox_background"
@@ -66,7 +66,7 @@
     <EditText
         android:id="@+id/editTxEmailCadastro"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="@android:drawable/editbox_background"
@@ -81,7 +81,7 @@
     <EditText
         android:id="@+id/editTxConfiSenhaCadastro"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="@android:drawable/editbox_background"
@@ -103,7 +103,7 @@
     <Button
         android:id="@+id/btnCadastrarCadastro"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="@color/botoes"

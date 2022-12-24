@@ -9,7 +9,7 @@
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="0dp"
-        android:layout_height="30dp"
+        android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="54dp"
         android:layout_marginEnd="16dp"
@@ -82,7 +82,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="32dp"
         android:background="@android:color/transparent"
-        android:text="Login / Cadastro "
+        android:text="LOGIN / CADASTRO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
@@ -97,7 +97,7 @@
     <EditText
         android:id="@+id/editTxEmail"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
@@ -113,7 +113,7 @@
     <EditText
         android:id="@+id/editTxSenha"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
