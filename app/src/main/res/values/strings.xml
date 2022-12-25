@@ -15,16 +15,21 @@
     <string name="CadastroAgenda_MenuAdm">CADASTRAR AGENDA</string>
     <string name="CadastroServiço_MenuAdm">CADASTRAR SERVIÇO</string>
     <string name="AgendarServico_MenuAdm">AGENDAR SERVIÇO</string>
-    <string name="tituloEditaAgenda">"EDITAR AGENDA "</string>
+    <string name="tituloEditaAgenda">EDITAR AGENDA </string>
     <string name="btnEditaAgendaInclui">INCLUIR AGENDA </string>
     <string name="btnEditaAgendaExclui">EXCLUIR AGENDA </string>
     <string name="textTituloCadastroServico">CADASTRO DE SERVIÇOS</string>
     <string name="hintTituloCadastroServiço">   Titulo</string>
-    <string name="hintHorasCadastroServiço">"   Horas necessárias"</string>
+    <string name="hintHorasCadastroServiço">   Horas necessárias</string>
     <string name="hintFabricanteCadastroServiço">   Fabricante</string>
-    <string name="hintModeloCadastroServiço">"   Modelo"</string>
+    <string name="hintServicoAgendarServico">   Escolha o serviço</string>
+    <string name="hintFabricanteAgendarServico">   Informe o Fabricante</string>
+    <string name="hintModeloAgendarServico">   Informe o modelo</string>
+    <string name="hintModeloCadastroServiço">   Modelo</string>
+    <string name="btnConfirmarAgendarServico">Continuar</string>
     <string name="btnVoltarCadastroServicos">VOLTAR</string>
     <string name="btnSalvarCadastroServicos">SALVAR</string>
     <string name="textTituloUsuarioMenu">Escolha uma opção</string>
+    <string name="textTituloAgendarServico">Agendar serviço</string>
     />
 </resources>

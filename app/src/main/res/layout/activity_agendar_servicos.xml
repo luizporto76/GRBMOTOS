@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgendarServicos">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="105dp" />
+
+    <TextView
+        android:id="@+id/textTituloCadastrarServoco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:text="@string/textTituloAgendarServico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <EditText
+        android:id="@+id/editServicoAgendarServico"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="20"
+        android:hint="@string/hintServicoAgendarServico"
+        android:inputType="textPassword"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/editFabricanteAgendarServico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTituloCadastrarServoco"
+        app:layout_marginBaseline="60dp" />
+
+    <EditText
+        android:id="@+id/editModeloAgendarServico"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="20"
+        android:hint="@string/hintModeloAgendarServico"
+        android:inputType="textPassword"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnContinuarAgendarServico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editFabricanteAgendarServico"
+        app:layout_marginBaseline="60dp" />
+
+    <EditText
+        android:id="@+id/editFabricanteAgendarServico"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="20"
+        android:hint="@string/hintFabricanteAgendarServico"
+        android:inputType="textPassword"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/editModeloAgendarServico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editServicoAgendarServico"
+        app:layout_marginBaseline="60dp" />
+
+    <Button
+        android:id="@+id/btnContinuarAgendarServico"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/botoes"
+        android:text="@string/btnConfirmarAgendarServico"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:circularflow_defaultRadius="10dp"
+        app:circularflow_radiusInDP="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editModeloAgendarServico" />
+</androidx.constraintlayout.widget.ConstraintLayout>
