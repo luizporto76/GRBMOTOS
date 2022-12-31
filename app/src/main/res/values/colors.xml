@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="botoes">#1B4AF3</color>
     <color name="textView">#000000</color>
+    <color name="gray">#888</color>
+    <color name="blue">#0000ff</color>
 </resources>

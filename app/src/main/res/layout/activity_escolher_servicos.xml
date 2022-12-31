@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AgendarServicos">
+    tools:context=".EscolherServicos">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline8"
@@ -14,72 +14,72 @@
         app:layout_constraintGuide_begin="105dp" />
 
     <TextView
-        android:id="@+id/textTituloCadastrarServoco"
+        android:id="@+id/textTituloEscolherServoco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:background="@android:color/transparent"
-        android:text="@string/textTituloAgendarServico"
+        android:text="@string/textTituloEscolherServico"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <EditText
-        android:id="@+id/editServicoAgendarServico"
+        android:id="@+id/editServicoEscolherServico"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:background="@android:drawable/editbox_background"
         android:ems="20"
-        android:hint="@string/hintServicoAgendarServico"
+        android:hint="@string/hintServicoEscolherServico"
         android:inputType="textPassword"
         android:textSize="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/editFabricanteAgendarServico"
+        app:layout_constraintBottom_toTopOf="@+id/editFabricanteEscolherServico"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textTituloCadastrarServoco"
+        app:layout_constraintTop_toBottomOf="@+id/textTituloEscolherServoco"
         app:layout_marginBaseline="60dp" />
 
     <EditText
-        android:id="@+id/editModeloAgendarServico"
+        android:id="@+id/editModeloFabricanteServico"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:background="@android:drawable/editbox_background"
         android:ems="20"
-        android:hint="@string/hintModeloAgendarServico"
+        android:hint="@string/hintModeloEscolherServico"
         android:inputType="textPassword"
         android:textSize="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnContinuarAgendarServico"
+        app:layout_constraintBottom_toTopOf="@+id/btnContinuarEscolherServico"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editFabricanteAgendarServico"
+        app:layout_constraintTop_toBottomOf="@+id/editFabricanteEscolherServico"
         app:layout_marginBaseline="60dp" />
 
     <EditText
-        android:id="@+id/editFabricanteAgendarServico"
+        android:id="@+id/editFabricanteEscolherServico"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:background="@android:drawable/editbox_background"
         android:ems="20"
-        android:hint="@string/hintFabricanteAgendarServico"
+        android:hint="@string/hintFabricanteEscolherServico"
         android:inputType="textPassword"
         android:textSize="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/editModeloAgendarServico"
+        app:layout_constraintBottom_toTopOf="@+id/editModeloFabricanteServico"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editServicoAgendarServico"
+        app:layout_constraintTop_toBottomOf="@+id/editServicoEscolherServico"
         app:layout_marginBaseline="60dp" />
 
     <Button
-        android:id="@+id/btnContinuarAgendarServico"
+        android:id="@+id/btnContinuarEscolherServico"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
@@ -94,5 +94,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editModeloAgendarServico" />
+        app:layout_constraintTop_toBottomOf="@+id/editModeloFabricanteServico" />
 </androidx.constraintlayout.widget.ConstraintLayout>

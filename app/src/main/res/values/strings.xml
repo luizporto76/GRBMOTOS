@@ -1,4 +1,6 @@
 <resources>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
     <string name="app_name">GRB MOTOS</string>
     <string name="cadastro_cadastrar">Cadastrar</string>
     <string name="btn_login">Login</string>
@@ -22,14 +24,14 @@
     <string name="hintTituloCadastroServiço">   Titulo</string>
     <string name="hintHorasCadastroServiço">   Horas necessárias</string>
     <string name="hintFabricanteCadastroServiço">   Fabricante</string>
-    <string name="hintServicoAgendarServico">   Escolha o serviço</string>
-    <string name="hintFabricanteAgendarServico">   Informe o Fabricante</string>
-    <string name="hintModeloAgendarServico">   Informe o modelo</string>
+    <string name="hintServicoEscolherServico">   Escolha o serviço</string>
+    <string name="hintFabricanteEscolherServico">   Informe o Fabricante</string>
+    <string name="hintModeloEscolherServico">   Informe o modelo</string>
     <string name="hintModeloCadastroServiço">   Modelo</string>
     <string name="btnConfirmarAgendarServico">Continuar</string>
     <string name="btnVoltarCadastroServicos">VOLTAR</string>
     <string name="btnSalvarCadastroServicos">SALVAR</string>
     <string name="textTituloUsuarioMenu">Escolha uma opção</string>
-    <string name="textTituloAgendarServico">Agendar serviço</string>
+    <string name="textTituloEscolherServico">Selecione o serviço</string>
     />
 </resources>

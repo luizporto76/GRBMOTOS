@@ -9,7 +9,8 @@ import android.widget.Button;
 
 public class testeDeTela extends AppCompatActivity {
 
-    public Button TagendarServico, TcadastroServicos, TcadastroUsuario,TeditaAgenda, TmenuAdm, TopcoesUsuario;
+    public Button TagendarServico, TcadastroServicos, TcadastroUsuario,TeditaAgenda, TmenuAdm, TopcoesUsuario,
+                    EscolherServicos, AgendarServico;
 
 
     @Override
@@ -21,7 +22,7 @@ public class testeDeTela extends AppCompatActivity {
         TagendarServico.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),AgendarServicos.class);
+                Intent intent = new Intent(getApplicationContext(), EscolherServicos.class);
                 startActivity(intent);
 
             }
@@ -72,6 +73,25 @@ public class testeDeTela extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),OpcoesUsuario.class);
+                startActivity(intent);
+
+            }
+        });
+        EscolherServicos = findViewById(R.id.EscolherServicos);
+        EscolherServicos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),EscolherServicos.class);
+                startActivity(intent);
+
+            }
+        });
+
+        AgendarServico = findViewById(R.id.AgendarServico);
+        AgendarServico.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),AgendarServico.class);
                 startActivity(intent);
 
             }
