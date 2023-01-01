@@ -10,7 +10,7 @@ import android.widget.Button;
 public class testeDeTela extends AppCompatActivity {
 
     public Button TagendarServico, TcadastroServicos, TcadastroUsuario,TeditaAgenda, TmenuAdm, TopcoesUsuario,
-                    EscolherServicos, AgendarServico;
+                    EscolherServicos, AgendarServico, CadastroVeiculo;
 
 
     @Override
@@ -92,6 +92,16 @@ public class testeDeTela extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),AgendarServico.class);
+                startActivity(intent);
+
+            }
+        });
+
+        CadastroVeiculo = findViewById(R.id.CadastroVeiculo);
+        CadastroVeiculo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),CadastroVeiculo.class);
                 startActivity(intent);
 
             }

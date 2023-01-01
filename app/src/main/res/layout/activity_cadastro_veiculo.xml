@@ -5,119 +5,103 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fundo_ps"
-    tools:context=".CadastroUsuaActivity">
+    tools:context=".CadastroVeiculo">
 
-    <EditText
-        android:id="@+id/editTxSenhaCadastro"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:background="@android:drawable/editbox_background"
-        android:ems="10"
-        android:hint="@string/hintSenha"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editTxConfiSenhaCadastro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTxEmailCadastro" />
-
-    <TextView
-        android:id="@+id/textTituloCadastroUsua"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:background="@android:color/transparent"
-        android:text="@string/novoCasdastro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline3" />
-
-    <EditText
-        android:id="@+id/editTxNomeCadastro"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:background="@android:drawable/editbox_background"
-        android:ems="10"
-        android:hint="@string/hintNome"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editTxTelefoneCadastro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textTituloCadastroUsua" />
-
-    <EditText
-        android:id="@+id/editTxTelefoneCadastro"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:background="@android:drawable/editbox_background"
-        android:ems="10"
-        android:hint="@string/hintTelefone"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editTxEmailCadastro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTxNomeCadastro" />
-
-    <EditText
-        android:id="@+id/editTxEmailCadastro"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:background="@android:drawable/editbox_background"
-        android:ems="10"
-        android:hint="@string/hintEmail"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editTxSenhaCadastro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTxTelefoneCadastro" />
-
-    <EditText
-        android:id="@+id/editTxConfiSenhaCadastro"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:background="@android:drawable/editbox_background"
-        android:ems="10"
-        android:hint="@string/hintConfirmaSenha"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/btnCadastrarCadastro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTxSenhaCadastro" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
+        android:id="@+id/guideline9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.145" />
+        app:layout_constraintGuide_begin="105dp" />
+
+    <TextView
+        android:id="@+id/textTituloCadastroVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:text="@string/textTituloCadastroVeiculo"
+        app:layout_constraintBottom_toTopOf="@+id/editCadVeiculoUsua"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editCadVeiculoUsua"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="@string/hinteditCadVeiculoUsua"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editCadVeiculoFabr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTituloCadastroVeiculo" />
+
+    <EditText
+        android:id="@+id/editCadVeiculoFabr"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="@string/hinteditCadVeiculoFabr"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editCadVeiculoMod"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editCadVeiculoUsua" />
+
+    <EditText
+        android:id="@+id/editCadVeiculoPlaca"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="@string/hinteditCadVeiculoPlaca"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnCadVeiculoCont"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editCadVeiculoMod" />
+
+    <EditText
+        android:id="@+id/editCadVeiculoMod"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="@string/hinteditCadVeiculoMod"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editCadVeiculoPlaca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editCadVeiculoFabr" />
 
     <Button
-        android:id="@+id/btnCadastrarCadastro"
+        android:id="@+id/btnCadVeiculoCont"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="@color/botoes"
-        android:text="@string/cadastro_cadastrar"
-        android:textColor="@color/white"
+        android:text="@string/btnCadVeiculoCont"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTxConfiSenhaCadastro" />
+        app:layout_constraintTop_toBottomOf="@+id/editCadVeiculoPlaca" />
 </androidx.constraintlayout.widget.ConstraintLayout>

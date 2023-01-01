@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundo_ps"
     tools:context=".OpcoesUsuario">
 
     <androidx.constraintlayout.widget.Guideline
@@ -22,11 +23,24 @@
         android:background="@color/botoes"
         android:text="@string/btnVersUsuarioOpcoes"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnaNovoUsuarioMenu" />
+        tools:layout_editor_absoluteY="360dp" />
+
+    <Button
+        android:id="@+id/btnVeiculoUsuarioMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@color/botoes"
+        android:text="@string/btnVeiculosUsuarioOpcoes"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="485dp" />
 
     <Button
         android:id="@+id/btnaNovoUsuarioMenu"
@@ -37,11 +51,10 @@
         android:background="@color/botoes"
         android:text="@string/btnNovoUsuarioOpcoes"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/btnVerUsuarioMenu"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSalvarUsuarioMenu" />
+        tools:layout_editor_absoluteY="237dp" />
 
     <TextView
         android:id="@+id/btnSalvarUsuarioMenu"

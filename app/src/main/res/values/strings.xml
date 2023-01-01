@@ -10,6 +10,7 @@
     <string name="hintEmail">   Email</string>
     <string name="btnNovoUsuarioOpcoes">Novo agendamento</string>
     <string name="btnVersUsuarioOpcoes">Meus agendamentos</string>
+    <string name="btnVeiculosUsuarioOpcoes">Cadastrar veiculo</string>
     <string name="hintSenha">Senha</string>
     <string name="hintConfirmaSenha">Confirme a senha</string>
     <string name="tituloMenuAdm">MENU ADMINISTRADOR</string>
@@ -28,10 +29,16 @@
     <string name="hintFabricanteEscolherServico">   Informe o Fabricante</string>
     <string name="hintModeloEscolherServico">   Informe o modelo</string>
     <string name="hintModeloCadastroServiço">   Modelo</string>
+    <string name="hinteditCadVeiculoUsua">   Usuário</string>
+    <string name="hinteditCadVeiculoFabr">   Fabricante</string>
+    <string name="hinteditCadVeiculoMod">   Modelo</string>
+    <string name="hinteditCadVeiculoPlaca">   Placa</string>
+    <string name="btnCadVeiculoCont">Continuar</string>
     <string name="btnConfirmarAgendarServico">Continuar</string>
     <string name="btnVoltarCadastroServicos">VOLTAR</string>
     <string name="btnSalvarCadastroServicos">SALVAR</string>
     <string name="textTituloUsuarioMenu">Escolha uma opção</string>
     <string name="textTituloEscolherServico">Selecione o serviço</string>
+    <string name="textTituloCadastroVeiculo">Novo cadstro de veiculo</string>
     />
 </resources>

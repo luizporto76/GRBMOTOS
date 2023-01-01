@@ -63,6 +63,8 @@
         android:text="cadastro Servicos"
         app:layout_constraintBottom_toTopOf="@+id/TcadastroUsuario"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/CadastroVeiculo"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TagendarServico" />
 
@@ -87,4 +89,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/TagendarServico" />
+
+    <Button
+        android:id="@+id/CadastroVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CadastroVeiculo"
+        app:layout_constraintBottom_toBottomOf="@+id/TcadastroServicos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/TcadastroServicos" />
 </androidx.constraintlayout.widget.ConstraintLayout>
