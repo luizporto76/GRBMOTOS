@@ -25,6 +25,7 @@
     <string name="hintTituloCadastroServiço">   Titulo</string>
     <string name="hintHorasCadastroServiço">   Horas necessárias</string>
     <string name="hintFabricanteCadastroServiço">   Fabricante</string>
+    <string name="hintUsuarioEscolherServico">   Usuário</string>
     <string name="hintServicoEscolherServico">   Escolha o serviço</string>
     <string name="hintFabricanteEscolherServico">   Informe o Fabricante</string>
     <string name="hintModeloEscolherServico">   Informe o modelo</string>
@@ -37,6 +38,11 @@
     <string name="btnConfirmarAgendarServico">Continuar</string>
     <string name="btnVoltarCadastroServicos">VOLTAR</string>
     <string name="btnSalvarCadastroServicos">SALVAR</string>
+    <string name="btnAgendarServicoConfirmar">Confirmar</string>
+    <string name="btnExcluirDataVoltar">Voltar</string>
+    <string name="btnExcluirDataConfirmar">Confirmar</string>
+    <string name="btnAddDataSalvar">Salvar</string>
+    <string name="btnAddDataVoltar">Voltar</string>
     <string name="textTituloUsuarioMenu">Escolha uma opção</string>
     <string name="textTituloEscolherServico">Selecione o serviço</string>
     <string name="textTituloCadastroVeiculo">Novo cadstro de veiculo</string>

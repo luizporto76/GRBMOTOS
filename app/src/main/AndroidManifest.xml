@@ -13,6 +13,27 @@
         android:theme="@style/Theme.GRBMOTOS"
         tools:targetApi="31">
         <activity
+            android:name=".VerAgendaUsua"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".VerAgendaAdm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AdicionarData"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ExcluirData"
             android:exported="false">
             <meta-data

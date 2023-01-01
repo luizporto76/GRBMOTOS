@@ -13,6 +13,8 @@
         android:text="cadastro Usuario"
         app:layout_constraintBottom_toTopOf="@+id/TeditaAgenda"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ExcluirData"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TcadastroServicos" />
 
@@ -22,7 +24,8 @@
         android:layout_height="wrap_content"
         android:text="edita Agenda"
         app:layout_constraintBottom_toTopOf="@+id/TmenuAdm"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/AdicionarData"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TcadastroUsuario" />
 
@@ -32,7 +35,8 @@
         android:layout_height="wrap_content"
         android:text="menu Adm"
         app:layout_constraintBottom_toTopOf="@+id/TopcoesUsuario"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/VerAgendaAdm"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TeditaAgenda" />
 
@@ -41,20 +45,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="opcoes Usuario"
-        app:layout_constraintBottom_toTopOf="@+id/EscolherServicos"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/VerAgendaUsua"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TmenuAdm" />
-
-    <Button
-        android:id="@+id/EscolherServicos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="EscolherServicos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TopcoesUsuario" />
 
     <Button
         android:id="@+id/TcadastroServicos"
@@ -73,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
-        android:text="agendarServico"
+        android:text="Selecionar Servico"
         app:layout_constraintBottom_toTopOf="@+id/TcadastroServicos"
         app:layout_constraintEnd_toStartOf="@+id/AgendarServico"
         app:layout_constraintHorizontal_bias="0.5"
@@ -99,4 +94,44 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/TcadastroServicos" />
+
+    <Button
+        android:id="@+id/ExcluirData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ExcluirData"
+        app:layout_constraintBottom_toBottomOf="@+id/TcadastroUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/TcadastroUsuario" />
+
+    <Button
+        android:id="@+id/AdicionarData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AdicionarData"
+        app:layout_constraintBottom_toBottomOf="@+id/TeditaAgenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/TeditaAgenda" />
+
+    <Button
+        android:id="@+id/VerAgendaAdm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Agenda Adm"
+        app:layout_constraintBottom_toBottomOf="@+id/TmenuAdm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/TmenuAdm" />
+
+    <Button
+        android:id="@+id/VerAgendaUsua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Agenda Usua"
+        app:layout_constraintBottom_toBottomOf="@+id/TopcoesUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/TopcoesUsuario" />
 </androidx.constraintlayout.widget.ConstraintLayout>

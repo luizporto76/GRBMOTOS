@@ -13,7 +13,7 @@ import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
-public class ExcluirData extends AppCompatActivity implements CalendarAdapter.OnItemListener
+public class AdicionarData extends AppCompatActivity implements CalendarAdapter.OnItemListener
 {
     private TextView monthYearText;
     private RecyclerView calendarRecyclerView;
@@ -23,7 +23,7 @@ public class ExcluirData extends AppCompatActivity implements CalendarAdapter.On
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_excluir_data);
+        setContentView(R.layout.activity_adicionar_data);
         initWidgets();
         selectedDate = LocalDate.now();
         setMonthView();

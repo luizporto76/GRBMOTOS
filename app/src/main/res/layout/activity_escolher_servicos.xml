@@ -26,6 +26,24 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <EditText
+        android:id="@+id/editUsuarioEscolherServico"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="20"
+        android:hint="@string/hintUsuarioEscolherServico"
+        android:inputType="textPassword"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/editServicoEscolherServico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTituloEscolherServoco"
+        app:layout_marginBaseline="60dp" />
+
+    <EditText
         android:id="@+id/editServicoEscolherServico"
         android:layout_width="0dp"
         android:layout_height="50dp"
@@ -40,7 +58,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textTituloEscolherServoco"
+        app:layout_constraintTop_toBottomOf="@+id/editUsuarioEscolherServico"
         app:layout_marginBaseline="60dp" />
 
     <EditText
@@ -96,4 +114,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editModeloFabricanteServico" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

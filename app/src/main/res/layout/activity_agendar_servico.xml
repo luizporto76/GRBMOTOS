@@ -216,12 +216,12 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnAgendarSerfico"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="32dp"
             android:background="@color/botoes"
-            android:text="Button"
+            android:text="@string/btnAgendarServicoConfirmar"
             android:textColor="@color/white" />
 
     </LinearLayout>

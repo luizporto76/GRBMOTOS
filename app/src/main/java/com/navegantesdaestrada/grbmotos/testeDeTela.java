@@ -10,7 +10,7 @@ import android.widget.Button;
 public class testeDeTela extends AppCompatActivity {
 
     public Button TagendarServico, TcadastroServicos, TcadastroUsuario,TeditaAgenda, TmenuAdm, TopcoesUsuario,
-                    EscolherServicos, AgendarServico, CadastroVeiculo;
+                    EscolherServicos, AgendarServico, CadastroVeiculo, ExcluirData, AdicionarData, VerAgendaAdm, VerAgendaUsua;
 
 
     @Override
@@ -77,15 +77,6 @@ public class testeDeTela extends AppCompatActivity {
 
             }
         });
-        EscolherServicos = findViewById(R.id.EscolherServicos);
-        EscolherServicos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),EscolherServicos.class);
-                startActivity(intent);
-
-            }
-        });
 
         AgendarServico = findViewById(R.id.AgendarServico);
         AgendarServico.setOnClickListener(new View.OnClickListener() {
@@ -102,6 +93,43 @@ public class testeDeTela extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),CadastroVeiculo.class);
+                startActivity(intent);
+
+            }
+        });
+
+        ExcluirData = findViewById(R.id.ExcluirData);
+        ExcluirData.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),ExcluirData.class);
+                startActivity(intent);
+
+            }
+        });
+        AdicionarData = findViewById(R.id.AdicionarData);
+        AdicionarData.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),AdicionarData.class);
+                startActivity(intent);
+
+            }
+        });
+        VerAgendaAdm = findViewById(R.id.VerAgendaAdm);
+        VerAgendaAdm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),VerAgendaAdm.class);
+                startActivity(intent);
+
+            }
+        });
+        VerAgendaUsua = findViewById(R.id.VerAgendaUsua);
+        VerAgendaUsua.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),VerAgendaUsua.class);
                 startActivity(intent);
 
             }
