@@ -10,5 +10,6 @@ public class MenuAdm extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_adm);
+        //Só um comentario
     }
 }
